@@ -1,0 +1,111 @@
+'''
+#include <iostream>
+#include <limits>
+
+using namespace std;
+int main() {
+cout << "bool " << sizeof(bool)
+<< "("
+<< numeric_limits<bool>::min()
+<< ";"
+<< numeric_limits<bool>::max()
+<< ")\n"
+<< endl;
+cout << "unsigned char " << sizeof(unsigned char)
+<< "("
+<< (int)numeric_limits<unsigned char>::min()
+<< ";"
+<< (int)numeric_limits<unsigned char>::max()
+<< ")\n"
+<< endl;
+cout << "signed char " << sizeof(signed char)
+<< "("
+<< (int)numeric_limits<signed char>::min()
+<< ";"
+<< (int)numeric_limits<signed char>::max()
+<< ")\n"
+<< endl;
+cout << "char16_t " << sizeof(char16_t)
+<< "("
+<< numeric_limits<char16_t>::min()
+<< ";"
+<< numeric_limits<char16_t>::max()
+<< ")\n"
+<< endl;
+cout << "char32_t " << sizeof(char32_t)
+<< "("
+<< numeric_limits<char32_t>::min()
+<< ";"
+<< numeric_limits<char32_t>::max()
+<< ")\n"
+<< endl;
+
+cout << "wchar_t " << sizeof(wchar_t)
+<< "("
+<< numeric_limits<wchar_t>::min()
+<< ";"
+<< numeric_limits<wchar_t>::max()
+<< ")\n"
+<< endl;
+
+cout << "short " << sizeof(short)
+<< "("
+<< numeric_limits<short>::min()
+<< ";"
+<< numeric_limits<short>::max()
+<< ")\n"
+<< endl;
+cout << "unsigned short " << sizeof(unsigned short)
+<< "("
+<< numeric_limits<unsigned short>::min()
+<< ";"
+<< numeric_limits<unsigned short>::max()
+<< ")\n"
+<< endl;
+cout << "long " << sizeof(long)
+<< "("
+<< numeric_limits<long>::min()
+<< ";"
+<< numeric_limits<long>::max()
+<< ")\n"
+<< endl;
+cout << "long long " << sizeof(long long)
+<< "("
+<< numeric_limits<long long>::min()
+<< ";"
+<< numeric_limits<long long>::max()
+<< ")\n"
+<< endl;
+
+cout << "long double " << sizeof(long double)
+<< "("
+<< numeric_limits<long double>::min()
+<< ";"
+<< numeric_limits<long double>::max()
+<< ")\n"
+<< endl;
+cout << "unsigned long long " << sizeof(unsigned long long)
+<< "("
+<< numeric_limits<unsigned long long>::min()
+<< ";"
+<< numeric_limits<unsigned long long>::max()
+<< ")\n"
+<< endl;
+cout << "float " << sizeof(float)
+<< "("
+<< numeric_limits<float>::min()
+<< ";"
+<< numeric_limits<float>::max()
+<< ")\n"
+<< endl;
+cout << "double " << sizeof(double)
+<< "("
+<< numeric_limits<double>::min()
+<< ";"
+<< numeric_limits<double>::max()
+<< ")\n"
+<< endl;
+cin.get();
+return 0;
+}
+'''
